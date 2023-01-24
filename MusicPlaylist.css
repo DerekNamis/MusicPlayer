@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(16, 0, 49);
+}
+
+#container {
+    height: 1079px;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+#heading {
+    width: 1125px;
+    height: 250px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    display: flex;
+    justify-content: start;
+}
+
+#nav {
+    width: 240px;
+    height: 100%;
+    background-color: black;
+}
+
+
+#img2 {
+    height: 250px;
+
+}
+
+#headingText {
+    position: absolute;
+    color: wheat;
+    left: 710px;
+    top: 27px;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#middle {
+    width: 1125px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+#last {
+    width: 1125px;
+    height: 500px;
+    border: 2px solid black;
+
+}
+
+#text {
+    font-size: 30px;
+    color: rgba(240, 248, 255, 0.384);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#text2 {
+    font-size: 30px;
+    color: rgba(240, 248, 255, 0.384);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#button2 {
+    padding: 4px 1px;
+    height: 50px;
+    position: absolute;
+    top: 130px;
+    left: 890px;
+    width: 130px;
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px black;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    color: #5B42F3;
+    cursor: pointer;
+}
+
+
+#button1 {
+  height: 50px;
+  position: absolute;
+  top: 130px;
+  left: 710px;
+  width: 130px;
+  box-shadow: 3px 3px 6px black;
+  transition: 0.8s;
+  padding: 4px 5px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+
+.button1 :active {
+    background-color: black;
+}
